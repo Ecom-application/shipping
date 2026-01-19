@@ -27,7 +27,7 @@ RUN if [ "${TARGETPLATFORM}" = "${BUILDPLATFORM}" ] ; then \
 
 WORKDIR /app/
 
-COPY ./src/shipping/ /app/
+COPY ./src/ /app/
 COPY ./pb/ /app/proto/
 
 # Compile or crosscompile
